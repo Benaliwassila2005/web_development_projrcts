@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+   
+    width: 100%;
+
+
+}
+nav{
+
+   display: flex;
+   justify-content: space-between;
+   min-height: 70px;
+   background-color:#F1F4F1;
+   line-height: 70px;
+   width: 100%;
+
+}
+
+
+.navItems ul{
+  
+    display: flex;
+   justify-content: space-between;
+   gap: 25px;
+   margin-right: 30px;
+   
+}
+
+.list li{
+    list-style: none;
+    
+}
+
+.list li a{
+    text-decoration: none;
+    color: #305C2A;
+    font-size: 200;
+    font-weight: 500;
+}
+
+.list button{
+  
+    height: 30px;
+    margin-top: 20px;
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: #305C2A;
+}
+
+.para{
+    margin-left: 30px;
+    color: #305C2A;
+    font-weight: bold;
+
+}
+
+ .para span{ 
+    
+     font-weight: 800;
+     font-size: larger;
+     color:#2C8A2C;
+
+    
+}
+
+#section{
+   
+    background:   linear-gradient(rgba(10, 10, 10, 0.75), rgba(10, 10, 10, 0.75)),
+  url("images/pic12.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    background-position: center;
+    color:#305C2A;
+    margin-bottom: 40px;
+    
+}
+
+
+#section h2{
+
+    text-align: center;
+ 
+    padding-top: 120px;
+    color: #F1F4F1;
+      
+    
+    
+}
+
+#btn{
+    
+   
+    margin-top: 20px;
+    min-height: 20px;
+    line-height: 20px;
+    width: 100px;
+    margin-left: 500px;
+    border: none;
+    padding: 7px 7px;
+    border-radius: 20px;
+    background-color: #305C2A;
+    color: white;
+    cursor: pointer;
+    
+
+}
+#btn:hover{
+    background-color: #F1F4F1;
+    color: #305C2A;
+}
+
+.section2{
+    margin: 20px auto;
+    width: 100%;
+    height: 80vh;
+    margin-top: 120px;
+   
+       
+}
+
+
+.image{
+    display: flex;
+    width: 70%;
+    height: 420px;
+    background-color: #F1F4F1;
+    margin: 10px auto;
+  
+   border: 1px solid #F1F4F1;
+   border-radius: 10px;
+
+
+
+}
+
+.image img{
+    width: 250px;
+    height: 419px;
+     background-color: rgba(10, 10, 10, 0.75);
+    border: 1px solid #F1F4F1;
+   border-radius: 10px;
+}
+
+.form h2{
+    padding-top: 20px;
+    padding-left: 15px;
+    color: #305C2A;
+}
+
+.form p{
+    padding-left: 10px;
+    padding-top: 10px;
+    color: #305C2A;
+}
+.form1 {
+    margin-top: 30px;
+    
+    
+}
+
+.form1 input{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 220px;
+    border: 1px solid #305C2A;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+
+
+.drop_menu{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    margin: 5px auto;
+    border: 1px solid #305C2A;
+    color: #305C2A;
+    border-radius: 10px;
+
+}
+
+.menu1{
+    margin-left: 35px;
+}
+
+#butn{
+    margin-left: 150px;
+    margin-top: 20px;
+    width: 200px;
+    border: 1px solid #305C2A;
+    color:#F1F4F1;
+    background-color: #305C2A;
+    cursor: pointer;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 10px;
+
+
+
+
+}
+
+
+#butn:hover{
+    background-color: #2C8A2C;
+    color: #F1F4F1;
+}
+
+
+
+footer{
+    margin-top: 140px;
+    width: 100%;
+    height: 300px;
+    background-color: #305C2A;
+    color: #F1F4F1;
+   
+    
+}
+
+.line1{
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.div4{
+    margin-top: 50px;
+}
+
+
+hr{
+    margin-top: 40px;
+   margin-left: 15px;
+   margin-right: 15px;
+   background-color: #305C2A;
+}
+
+
