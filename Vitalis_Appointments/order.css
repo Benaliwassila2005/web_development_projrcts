@@ -1,0 +1,266 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:  'Pacifico', cursive;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #4e1609;
+    height: 60px;
+    
+}
+.button h2{
+    font-size: 24px;
+    color: bisque;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.list{
+
+    height: 60px;
+
+}
+
+
+ul{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 10px;  
+    margin-right: 50px; 
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color: bisque;
+    font-size: 13px;
+    padding: 10px 8px;
+    border: none;
+    display: inline-block;
+    border-radius: 15px;
+    transition: transform 0.3s ease; 
+   
+
+    
+}
+
+ul li a:hover{
+    background-color:#895129;
+     transform: translateX(5px);
+}
+
+
+
+#btn1{
+    
+    margin-left: 50px;
+    margin-top: 17px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 15px;
+    color: #4e1609;
+    background-color: bisque;
+    font-weight: bolder;
+}
+
+.fa-brands{
+    font-size: 13px;
+}
+
+
+.menu1{
+
+    width: 400px;
+    height: 90vh;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 350px;
+    padding-top: 20px; 
+    color: #4e1609;
+    backdrop-filter :blur(20px);
+
+}
+
+
+
+
+
+form{
+    
+    margin-left: 50px;
+    margin-top: 40px; 
+    color: #4e1609;   
+   
+}
+
+
+#sec{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(210, 105, 30, 0.3),rgba(210, 105, 30, 0.3)),url(images/pic18.jpg) no-repeat;
+    background-size: cover;
+       
+
+}
+
+.image img{
+    width: 400px;
+    height: 25vh;
+}
+
+
+
+
+form input{
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    border:none;
+    border-radius: 5px;
+    background-color: bisque;
+}
+
+
+form select{
+    
+    width: 300px;
+    height: 30px;
+    margin: 10px 0;
+    border:none;
+    border-radius: 5px;
+    background-color: bisque;
+    color: #4e1609;
+
+}
+
+#btn12{
+
+    width: 300px;
+    height: 30px;
+    margin-top: 15px;
+    border:none;
+    border-radius: 20px;
+    background-color: #895129;
+    
+}
+
+
+
+footer{
+
+    height: 65vh;
+     background-color:#4e1609;
+     width: 100%;
+     text-align: center;
+     color: wheat;
+    
+}
+
+footer .logo1{
+    font-size: 40px;
+}
+
+.wrapper {
+     display: flex;
+     justify-content: space-between;
+}
+.menu{
+    margin-top: 60px;
+    margin-right: 120px;
+    display: flex;
+    gap: 40px;
+}
+
+hr{
+    color: bisque;
+    background-color: bisque;
+    margin: 40px auto;
+    width: 80vw;
+}
+.logo{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.logo h3{
+    margin-bottom: 15px;
+}
+.div02 h3{
+    margin-bottom: 15px;
+}
+
+
+.div01 h3{
+    margin-bottom: 15px;
+}
+
+.div03 h3{
+    margin-bottom: 15px;
+}
+
+.div04 h3{
+    margin-bottom: 15px;
+}
+
+
+
+
+.span{
+    margin: 5px 5px;
+}
+
+.span1{
+    width: 40px;
+    height: 40px;
+    border: 1px solid wheat;
+    border-radius:20px ;
+    background-color: #4e1609;
+  
+}
+
+.span1 .fa-brands {
+
+    min-height: 40px;
+    padding-top: 12px;
+    color: wheat;
+}
+
+.social{
+    width: fit-content;
+    display: flex;
+    margin: 40px auto;
+    gap: 10px;
+}
+
+#btn7{
+      
+    border: 1px double wheat;
+    background:none;
+    color:wheat;
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    padding: 0 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-top: 5px;
+    margin-left: 15px;
+    margin-bottom: 38px;
+    
+
+
+}
+
+
+
+
+
