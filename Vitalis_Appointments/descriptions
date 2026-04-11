@@ -1,1 +1,51 @@
 
+# 🏥 Vitalis – Doctor Appointment Booking Platform
+
+Vitalis is a full-stack web application designed to simplify the process of booking and managing medical appointments. The platform connects patients, doctors, and administrators through a structured and role-based system, providing an efficient and user-friendly healthcare solution.
+
+---
+
+## ✨ Key Features
+
+### 👤 Patient
+- Account registration and login  
+- Browse available doctors  
+- Book and manage appointments  
+
+### 🩺 Doctor
+- Secure authentication  
+- View scheduled appointments  
+- Manage and update appointment status  
+
+### 🛡️ Admin
+- Manage doctor accounts and approvals  
+- Monitor platform activity  
+- Access a centralized dashboard for system control  
+
+---
+
+## 🛠️ Technologies Used
+- HTML5  
+- CSS3  
+- JavaScript  
+- PHP  
+- MySQL  
+- XAMPP (Local Development Environment)  
+
+---
+
+## 🎯 Project Objective
+The goal of this project is to design and develop a real-world full-stack application that demonstrates the integration of front-end and back-end technologies. It focuses on user authentication, role-based access control, and efficient data management.
+
+---
+
+## 📂 System Overview
+Vitalis is structured around three main roles:
+- **Patients**: interact with the system to book appointments  
+- **Doctors**: manage their schedules and appointments  
+- **Admin**: oversees and controls the entire platform  
+
+---
+
+## 📌 Conclusion
+This project highlights my ability to build a complete web application with multiple user roles, secure authentication, and dynamic data handling. It reflects my understanding of full-stack development and my capability to develop practical, real-world solutions.
