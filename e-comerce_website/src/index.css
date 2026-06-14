@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+
+/* Primary: #111827 (Almost Black)
+Secondary: #D4AF37 (Gold)
+Background: #FFFFFF
+Text: #1F2937 */
+:root{
+    --main_color :#111827;
+    --text_color:#FFFFFF ;
+}
+
+
+
+body{
+    background: var(--main_color);
+     font-family: "Inter", sans-serif;
+}
+
+img{
+   width: 100%;
+}
+
+
+h1,h2,h3,h4,h5,h6,p{
+  
+    color: var(--text_color);
+     font: "DM Sans",sans-serif;
+}
+
+span{
+    color: var(--text_color);
+}
+
+input,button,select,textarea{
+    outline: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: var(--text_color);
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1350px;
+}
