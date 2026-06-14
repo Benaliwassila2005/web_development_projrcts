@@ -1,0 +1,140 @@
+:root{
+    --main_color :#111827;
+    --text_color:#FFFFFF ;
+    --goldan_color : #D4AF37;
+}
+
+.item_details{
+    
+    padding: 50px 0;
+
+}
+
+.item_details .container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item_details .img_item{
+    width: 40%;
+
+}
+.item_details .img_item .big_img{
+    margin-bottom: 30px;
+}
+
+.item_details .img_item .big_img img{
+     max-height: 400px;
+     width: auto;
+     
+}
+
+.item_details .img_item  .small_img{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+
+.item_details .img_item  .small_img img{
+    width: 24%;
+    /* max-height: 100px; */
+
+}
+.item_details .details_item
+{
+   width: 58%;
+}
+
+.item_details .details_item .name{
+
+    margin-bottom: 30px;
+    color: #FFFFFF;
+}
+
+.item_details .details_item   .stars{
+    margin: 15px 0;
+    display: flex;
+    gap: 5px;
+
+}
+
+.item_details .details_item   .stars svg{
+    fill: var(--goldan_color);
+    font-size: 20px;
+}
+
+.item_details .details_item  .price{
+
+     font-size: 22px;
+     margin: 20px 0;
+}
+
+.item_details .details_item h5{
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.item_details .details_item .desc {
+    
+
+
+}
+
+.item_details .details_item  .stock{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #D4AF37;
+
+}
+
+.item_details .details_item  .btm{
+     padding: 10px 18px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: var(--goldan_color);
+    color: #111827;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    transition: 0.3s;
+    width: max-content;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.item_details .details_item .icons{
+    display: flex;
+    gap: 10px;
+    transition: 0.3s;
+    margin: 30px 0;
+
+}
+
+.item_details .details_item .icons span{
+    width: 40px;
+    height: 40px;
+    background-color: var(--goldan_color);
+    color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.item_details .details_item .icons span:hover{
+    background-color: var(--text_color);
+}
+
+
+
+
+
+
