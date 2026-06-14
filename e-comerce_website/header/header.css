@@ -1,0 +1,223 @@
+:root{
+    --main_color :#111827;
+    --text_color:#FFFFFF ;
+    --goldan_color : #D4AF37;
+}
+
+
+
+
+.top_header .container{
+     
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.container .logo{
+    width:160px;
+}
+
+
+.top_header .header_icons .icon{
+      position: relative;
+      cursor: pointer;
+}
+.icon svg{
+     
+  
+    color: var(--goldan_color);
+    font-size: 35px;
+    padding: 0 8px;
+}
+
+.top_header .search_box{
+    width: 500px;
+    /* background-color: blanchedalmond; */
+    display: flex;
+    align-items: center;
+    /* border: 1px solid  var( --goldan_color); */
+    border-radius: 10px;
+    
+}
+
+.top_header .search_box input{
+     
+    height: 40px;
+    width: 440px;
+    padding: 5px 15px 5px 20px;
+    background-color: var(--text_color);
+    border: 1px solid var(--goldan_color);
+    border-radius: 30px 0 0 30px;
+
+}
+
+input::placeholder{
+    color: var(--goldan_color);
+    font-size: 14px;
+}
+
+
+.top_header .search_box button{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 40px;
+     width: 60px;
+     background-color: var(--goldan_color);
+     border-radius: 0 30px 30px 0;
+     font-size: 25px;
+     color: var(--text_color);
+     cursor: pointer;
+
+
+}
+
+
+.top_header .header_icons{
+    display: flex;
+    gap: 30px;
+}
+
+
+/* Style the span count inside the div icon */
+
+.top_header .header_icons .icon .count{
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: var(--main_color);
+  color: #FFFFFF;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 13px;
+  border-radius: 100%;
+}
+
+.btm_header{
+    background-color: var(--goldan_color);
+}
+
+.btm_header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.btm_header .nav{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    height: 50px;
+
+   
+
+}
+
+.btm_header .nav .category_nav{
+    width: 220px;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+}
+
+.btm_header .nav .category_nav .category_nav_list{
+    background-color: var(--main_color);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #D4AF37;
+    border-top: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: 400px;
+    overflow-y:auto ;
+     z-index: 999;  
+    clip-path: polygon(0 0,100% 0,100% 0,0 0);  
+    cursor: pointer; 
+}
+
+.btm_header .nav .category_nav .category_nav_list.active{
+    clip-path: polygon(0 0,100% 0,100% 100% ,0 100%);  
+
+
+}
+
+.nav_links{
+    display: flex;
+    height: 100%;
+}
+
+.nav_links li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 25px;
+    color: #D4AF37;
+
+}
+
+
+
+.nav_links li:hover{
+    background-color: var(--main_color);
+    
+}
+
+
+
+.btm_header .sign_regs_icon{
+    display: flex;
+    gap: 20px;
+}
+
+.btm_header .sign_regs_icon svg{
+    font-size: 22px;
+
+}
+
+
+
+.btm_header .nav .category_nav
+ .category_nav_list 
+ .list_nav_name {
+    padding: 14px 10px;
+    border-bottom: 1px solid var(--main_color);
+    font-size: 14px;
+ }
+
+
+
+.btm_header .nav .category_nav
+ .category_nav_list 
+ .list_nav_name:hover{
+    background-color: #D4AF37;
+    color: #FFFFFF;
+
+}
+
+.ctegory_btm{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+
+.ctegory_btm SVG{
+    fill: var(--text_color);
+}
+
+.ctegory_btm p{
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+}
