@@ -1,1 +1,2 @@
 
+CRADI is an e-commerce web application developed as a learning project to strengthen my skills in React.js. Throughout this project, I implemented several core React features, including useState, useEffect, and component-based architecture. I also integrated the Swiper.js library to create responsive and interactive sliders, enhancing the overall user experience. This project served as a practical introduction to modern React development and demonstrates fundamental concepts that are valuable for beginners exploring front-end web development.
