@@ -1,4 +1,4 @@
-# 🚀 Web Development Projects
+#  Web Development Projects
 
 This repository showcases a collection of my web development projects built using HTML, CSS, JavaScript, and PHP. It reflects my ability to create responsive user interfaces, develop dynamic functionalities, and build real-world web applications.
 
