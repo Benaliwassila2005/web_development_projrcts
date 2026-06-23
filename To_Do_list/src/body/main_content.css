@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: 'Inter', sans-serif;
+}
+
+
+
+
+:root{
+     
+   --first-color:#fafafa;
+   --second-color : #ff347f;
+   --third-color:#c9356c;
+   --fourth-color:#f48db4;
+   --bg-dark: #1a1025;   
+   --bg-dark-card: #2d1b3d;
+
+}
+
+.main_container{
+  margin:40px 40px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.input_button_container{
+
+   width: 50vw;
+   height: 70px;
+   /* background-color: var(--first-color); */
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   
+   
+}
+
+
+.input_button_container input{
+
+   width:70%;
+   height: 100%;
+   padding: 10px;
+   border-radius: 20px;
+   border: none;
+
+}
+
+.input_button_container input:focus{
+   outline: none;
+   border: 1px solid var(--fourth-color);
+}
+
+.input_button_container button{
+
+    width: 20%;
+    height: 100%;
+    background-color: var(--third-color);
+    color: var(--first-color);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.input_button_container  .category_list{
+   height: 100%;
+   width: 10%;
+   border: none;
+  
+
+}
+
+.input_button_container  .category_list select{
+
+   width: 100%;
+   height: 100%;
+   background-color: var(--third-color);
+   border: none;
+   border-radius: 20px;
+   color: var(--first-color);
+   font-size: 20px;
+   cursor: pointer;
+}
+
+
+.input_button_container  .category_list select:focus{
+   outline: none;
+}
+
+.input_button_container  .category_list select option{
+ 
+   background-color: var(--first-color);
+   border: none;
+   border-radius: 20px;
+   color: var(--bg-dark-card);
+   font-size: 20px;
+   
+
+}
+
+.input_button_container  .category_list select option["selected"]{
+   color:
+}
+
+
+.input_button_container button:hover{
+
+   background-color: var(--second-color);
+}
+
+.filter_tasks{
+
+   display: flex;
+   gap: 30px;
+   margin-top: 30px;
+
+}
+
+
+.task_types{
+   width: 130px;
+   height: 50px;
+   border-radius: 30px;
+   background-color: var(--first-color);
+   display: grid;
+   place-items: center;
+}
+
+
+.task_types h2 a{
+   font-size: 20px;
+   text-decoration: none;
+   color: var(--bg-dark-card);
+   
+
+}
+
+.task_types.selected {
+   background-color: var(--third-color);
+   
+}
+
+.task_types.selected a{
+   color: var(--first-color);
+}
+
+.task_types:hover{
+      background-color: var(--second-color);
+      cursor: pointer;
+}
+
+.task_types:hover h2 a{
+   color: var(--first-color);
+}
+
+
+
+.tasks_container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* space between tasks */
+}
+
+
+.task{
+   margin-top: 50px;
+   width: 50vw;
+   height: 110px;
+   background-color: var(--first-color);
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+}
+
+
+
+.task .task_div_right{
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin: 30px;
+
+}
+
+.task .task_div_left {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   margin: 30px;
+
+
+
+}
+
+.task .task_div_right h2{
+   color: var(--bg-dark-card);
+}
+
+
+.task .task_div_left .icon_favorite{
+
+     width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #fdbed6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+}
+
+.task input {
+     width: 30px;
+     height: 30px;    
+     border: 1px solid var(--third-color);
+     border-radius: 10px;
+
+}
+
+
+
+
+
+
+ .task .icon_category {
+
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   background-color: #fdbed6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .task .icon_category svg{
+   fill: var(--third-color);
+   font-size: 30px;
+ }
+
+
+.task  .task_div_left .category_selected{
+    width: 120px;
+   height: 50px;
+   border-radius: 20px;
+   background-color: #fdbed6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+
+
+}
+
+.icon_trash{
+   border: none;
+   background-color: var(--first-color);
+   cursor: pointer;
+   
+}
+
+.icon_trash svg{
+
+   font-size: 25px;
+   fill: var(--third-color);
+} 
+
+
+
+
+/* right container */
+
+.right_main_container{
+   
+   margin-top: 50px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+}
+
+
+.fill {
+  height: 100%;
+  background: var(--third-color);
+}
+
+
+
+
+/* calender styling */
+
+.calendar{
+   
+   width: 23vw;
+   height: 48vh;
+   background-color: var(--first-color);
+   border-radius: 20px;
+}
+
+.calendar .calendar_header{
+   display: flex;
+   justify-content: space-evenly;
+   padding: 40px;
+   font-size: 15px;
+   font-weight: bold;
+   color: var(--bg-dark-card);
+}
+
+.calendar .calendar_header button{
+   
+   border: none;
+   background-color: var(--first-color);
+   font-size: 25px;  
+   color: var(--third-color);  
+   cursor: pointer;
+}
+
+
+
+.table_header{
+  
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: center;
+    gap: 8px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--bg-dark-card);
+
+}
+
+
+.calendar_body{
+   margin-top: 20px;
+}
+
+.body_content{
+ 
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  
+    gap: 8px;
+    text-align: center;
+
+
+}
+
+.day{
+   padding: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   color: var(--bg-dark-card);
+}
+
+.today{
+     background-color: var(--third-color);
+    color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    font-weight: bold;
+}
+.progress_Bar {
+   width: 23vw;
+   height: auto;
+   background-color: var(--first-color);
+   border-radius: 20px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.progress_Bar .bar_header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.progress_Bar .bar_header h2 {
+   font-size: 18px;
+   color: var(--bg-dark-card);
+}
+
+.progress_Bar .bar_header a {
+   text-decoration: none;
+   color: var(--bg-dark-card);
+   font-size: 14px;
+}
+
+.progress_Bar_container{
+   color: var(--bg-dark-card);
+}
+
+
+.progress_Bar_container .upper_Bar {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   gap: 8px;
+   padding: 12px 0;
+}
+
+.progress_Bar_container .category_bar {
+   display: flex;
+   align-items: center;
+   gap: 12px;
+}
+
+.progress_Bar_container h3 {
+   margin: 0;
+   font-size: 14px;
+   color: var(--bg-dark-card);
+}
+
+.progress_line {
+   width: 100%;
+}
+
+.progress_line .track {
+   width: 100%;
+   margin-left: 0; 
+}
+
+.progress_Bar_container .category_bar span {
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #fdbed6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.progress_Bar_container .category_bar span svg{
+   font-size: 25px;
+   fill: var(--third-color);
+}
+
+
+.progress_line {
+   width: 100%;
+}
+
+.progress_line .track {
+   width: 100%;
+   height: 8px;
+   border-radius: 10px;
+   background-color: #e7d4db;
+   overflow: hidden;
+   margin-top: 8px;
+}
+
+.fill {
+   height: 100%;
+   background-color: var(--third-color);
+   border-radius: 10px;
+   transition: width 0.3s ease-in-out;
+}
+
+
+.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+
+
+
+
+
+
+  
