@@ -28,4 +28,3 @@ Conditional rendering
 Working with LocalStorage
 Building dynamic UI components
 Component-based architecture
-📌 Future Improvements
