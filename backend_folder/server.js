@@ -1,7 +1,7 @@
 
 require("dotenv").config();
 const express = require("express");
-const db = require("../../backend_folder/bd");
+const db = require("./bd");
 const cors = require("cors");
 const fs = require("fs");
 // create the application 
