@@ -1,0 +1,10 @@
+* [33me69e599[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m Move server.js to backend_folder
+* [33m8d0e739[m Fix dotenv config order to load env variables before DB connection
+* [33m912c3b8[m Initial commit
+* [33m8420f41[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Delete spa_website/front_end_react_folder/footer_folder/file
+* [33m54fe594[m Delete spa_website/front_end_react_folder/Book_folder/file
+* [33m9110103[m Delete spa_website/front_end_react_folder/header_folder/file
+* [33m8dc647c[m Delete spa_website/folder_pic/file
+* [33mcbc45d6[m Add files via upload
+* [33m88de9b8[m Create file
+* [33m0517764[m Add files via upload
