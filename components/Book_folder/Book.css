@@ -1,0 +1,215 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  Palette 1  */
+
+
+:root {
+  --ivory:            #E8E5DC;
+  --soft-beige:       #D8C8BC;
+  --grey-brown:       #6B6258;
+  --deep-charcoal:    #2E2D2A;
+  --mist-green-gray:  #7D8580;
+  --dark-forest-gray: #34413D;
+  --foggy-blue-gray:  #8E9A9A;
+}
+
+/* Palette 2 */
+
+:root {
+  --spa-background:   #F4F1EA;
+  --spa-card:         #DCCFC0;
+  --spa-sage:         #7C8B7A;
+  --spa-forest:       #24332D;
+  --spa-gold:         #B89B5E;
+  --spa-text:         #2B2925;
+}
+
+/* Palette 3  */
+
+:root {
+  --cls-background:   #F7F3EC;
+  --cls-card:         #D8C3AE;
+  --cls-sage:         #879681;
+  --cls-forest:       #2F3A32;
+  --cls-gold:         #C5A46D;
+  --cls-text:         #3A3834;
+  --white-color :#fff;
+
+}
+
+:root {
+  --luxury-silver: #C9CED6;
+  --bright-silver: #E8EBEF;
+  --dark-silver: #8E959E;
+  --steel-silver: #A7AFB7;
+  --chrome: #F5F7FA;
+}
+
+:root {
+  --luxury-gold: #D4AF37;
+  --rich-gold: #C9A227;
+  --champagne-gold: #E6C76A;
+  --light-gold: #F3E5AB;
+  --dark-gold: #8B6B17;
+}
+
+
+:root {
+  --background:        #F4F6F9;  /* page background, main layout bg */
+  --surface:           #EAF0F6;  /* cards, sections, input fields, navbar bg */
+  --navy-deep:         #1B2A4A;  /* headings, footer bg, hero overlay */
+  --navy-mid:          #2B4478;  /* primary buttons bg, active nav links */
+  --sky-blue:          #4A7FB5;  /* secondary buttons, icons, dividers, badges */
+  --gold-accent:       #B8860B;  /* CTA buttons, price tags, star ratings, borders */
+  --gold-light:        #E8C06A;  /* button hover state, highlighted text, underlines */
+  --text-primary:      #1B2A4A;  /* all headings h1 h2 h3, bold text */
+  --text-secondary:    #4A5568;  /* body text, paragraphs, descriptions, labels */
+  --white:            #FFFFFF;  /* text on dark buttons, card bg, navbar text */
+    --ivory:          #E8E5DC;
+  --soft-beige:       #D8C8BC;
+  --grey-brown:       #6B6258;
+  --deep-charcoal:    #2E2D2A;
+  --mist-green-gray:  #7D8580;
+  --dark-forest-gray: #34413D;
+  --foggy-blue-gray:  #8E9A9A;
+    
+  --spa-background:   #F4F1EA;
+  --spa-card:         #DCCFC0;
+  --spa-sage:         #7C8B7A;
+  --spa-forest:       #24332D;
+  --spa-gold:         #B89B5E;
+  --spa-text:         #2B2925;
+  --brown-color:      #522e24;
+  --light-brown :     #804d3b;
+  --gold:             #D4AF37;
+  --golden1:          #C5A028;
+  --dark-brown :      #1A0F00;
+  --brown1:           #391E10;
+
+
+}
+
+.book_nav_bar{
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FAFAFA;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.book_logo img{
+    height:55px;
+    width: auto;
+}
+
+
+.book_nav_list nav a{
+  text-decoration: none;
+  color:var(--brown-color) ;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.book_nav_list nav{
+
+  display: flex;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* contact button  */
+
+.book_nav_list nav  #contact_btn{
+    width: 80px;
+    height: 30px;
+    padding: 6px 16px;
+    border-radius: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold; 
+    border: none;
+    background-color:var(--brown-color);
+    color: var(--background);
+
+}
+
+/* form styling  */
+
+form{
+    text-align: right;
+}
+
+
+
+.booking_form{
+    width:500px;
+    margin:40px auto;
+    display:flex;
+    flex-direction:column;
+    gap:18px;
+    padding:35px;
+    background:#fff;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.booking_form input,
+.booking_form select,
+.booking_form textarea{
+
+    padding:14px;
+    border:1px solid #ddd;
+    border-radius:8px;
+    font-size:15px;
+    outline:none;
+    text-align: right;
+
+}
+
+
+
+
+
+.booking_form input:focus,
+.booking_form select:focus,
+.booking_form textarea:focus{
+
+    border-color:#C9A227;
+}
+
+.booking_form button{
+
+    padding:15px;
+    background-color: var(--brown1);
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.booking_form button:hover{
+  background-color: var(--brown-color);
+}
+
+.checkbox_label {
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    direction: rtl;
+
+}

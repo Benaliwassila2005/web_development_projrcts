@@ -1,0 +1,197 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  Palette 1  */
+
+
+:root {
+  --ivory:            #E8E5DC;
+  --soft-beige:       #D8C8BC;
+  --grey-brown:       #6B6258;
+  --deep-charcoal:    #2E2D2A;
+  --mist-green-gray:  #7D8580;
+  --dark-forest-gray: #34413D;
+  --foggy-blue-gray:  #8E9A9A;
+}
+
+/* Palette 2 */
+
+:root {
+  --spa-background:   #F4F1EA;
+  --spa-card:         #DCCFC0;
+  --spa-sage:         #7C8B7A;
+  --spa-forest:       #24332D;
+  --spa-gold:         #B89B5E;
+  --spa-text:         #2B2925;
+}
+
+/* Palette 3  */
+
+:root {
+  --cls-background:   #F7F3EC;
+  --cls-card:         #D8C3AE;
+  --cls-sage:         #879681;
+  --cls-forest:       #2F3A32;
+  --cls-gold:         #C5A46D;
+  --cls-text:         #3A3834;
+  --white-color :#fff;
+
+}
+
+:root {
+  --luxury-silver: #C9CED6;
+  --bright-silver: #E8EBEF;
+  --dark-silver: #8E959E;
+  --steel-silver: #A7AFB7;
+  --chrome: #F5F7FA;
+}
+
+:root {
+  --luxury-gold: #D4AF37;
+  --rich-gold: #C9A227;
+  --champagne-gold: #E6C76A;
+  --light-gold: #F3E5AB;
+  --dark-gold: #8B6B17;
+}
+
+
+:root {
+  --background:        #F4F6F9;  /* page background, main layout bg */
+  --surface:           #EAF0F6;  /* cards, sections, input fields, navbar bg */
+  --navy-deep:         #1B2A4A;  /* headings, footer bg, hero overlay */
+  --navy-mid:          #2B4478;  /* primary buttons bg, active nav links */
+  --sky-blue:          #4A7FB5;  /* secondary buttons, icons, dividers, badges */
+  --gold-accent:       #B8860B;  /* CTA buttons, price tags, star ratings, borders */
+  --gold-light:        #E8C06A;  /* button hover state, highlighted text, underlines */
+  --text-primary:      #1B2A4A;  /* all headings h1 h2 h3, bold text */
+  --text-secondary:    #4A5568;  /* body text, paragraphs, descriptions, labels */
+  --white:            #FFFFFF;  /* text on dark buttons, card bg, navbar text */
+    --ivory:          #E8E5DC;
+  --soft-beige:       #D8C8BC;
+  --grey-brown:       #6B6258;
+  --deep-charcoal:    #2E2D2A;
+  --mist-green-gray:  #7D8580;
+  --dark-forest-gray: #34413D;
+  --foggy-blue-gray:  #8E9A9A;
+    
+  --spa-background:   #F4F1EA;
+  --spa-card:         #DCCFC0;
+  --spa-sage:         #7C8B7A;
+  --spa-forest:       #24332D;
+  --spa-gold:         #B89B5E;
+  --spa-text:         #2B2925;
+  --brown-color:      #522e24;
+  --light-brown :     #804d3b;
+  --gold:             #D4AF37;
+  --golden1:          #C5A028;
+  --dark-brown :      #1A0F00;
+  --brown1:           #391E10;
+
+
+}
+
+
+.global_container_footer{
+      
+      position: relative;
+      margin-top: 100px;
+      color: var(--brown1);
+     
+
+}
+
+.container_log{
+    max-width: 1000px;      /* or 1000px */
+    margin: 0 auto;         /* centers the whole container */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.right_content{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.logo img{
+  width: auto;
+  height: 160px;
+
+
+}
+
+.contact_info h2{
+    padding-bottom: 20px;
+}
+
+.contact_info h2::after{
+    display: block; 
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: var(--gold-accent);
+
+}
+
+.services_list {
+    list-style: none;      /* Remove default bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.services_list li {
+    margin-bottom: 10px;
+}
+
+.services_list li::before {
+    content: "✦";          /* or ✓, •, ✨, ❀ */
+    color: var(--gold-accent);        /* Gold color */
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+#line {
+   border: none;
+   border-top: 1px solid var(--gold-accent);
+   width: 60%;
+   margin: 30px auto;
+}
+
+
+.contact_nous{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.contact_nous .contact_paragraph{
+  
+      display: flex;
+      gap: 30px;
+      padding: 30px;
+      justify-content: center;
+      align-items: center;
+}
+
+ .contact_paragraph p{
+
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ .contact_paragraph p span svg{
+    fill: var(--gold-accent);
+
+ }

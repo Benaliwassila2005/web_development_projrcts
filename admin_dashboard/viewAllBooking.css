@@ -1,0 +1,166 @@
+
+:root {
+  --ivory:            #E8E5DC;
+  --soft-beige:       #D8C8BC;
+  --grey-brown:       #6B6258;
+  --deep-charcoal:    #2E2D2A;
+  --mist-green-gray:  #7D8580;
+  --dark-forest-gray: #34413D;
+  --foggy-blue-gray:  #8E9A9A;
+}
+
+/* Palette 2 */
+
+:root {
+  --spa-background:   #F4F1EA;
+  --spa-card:         #DCCFC0;
+  --spa-sage:         #7C8B7A;
+  --spa-forest:       #24332D;
+  --spa-gold:         #B89B5E;
+  --spa-text:         #2B2925;
+}
+
+/* Palette 3 */
+
+:root {
+  --cls-background:   #F7F3EC;
+  --cls-card:         #D8C3AE;
+  --cls-sage:         #879681;
+  --cls-forest:       #2F3A32;
+  --cls-gold:         #C5A46D;
+  --cls-text:         #3A3834;
+  --white-color:#fff;
+}
+
+:root {
+  --luxury-silver:#C9CED6;
+  --bright-silver:#E8EBEF;
+  --dark-silver:#8E959E;
+  --steel-silver:#A7AFB7;
+  --chrome:#F5F7FA;
+}
+
+:root {
+  --luxury-gold:#D4AF37;
+  --rich-gold:#C9A227;
+  --champagne-gold:#E6C76A;
+  --light-gold:#F3E5AB;
+  --dark-gold:#8B6B17;
+}
+
+:root {
+  --background:#F4F6F9;
+  --surface:#EAF0F6;
+  --navy-deep:#1B2A4A;
+  --navy-mid:#2B4478;
+  --sky-blue:#4A7FB5;
+  --gold-accent:#B8860B;
+  --gold-light:#E8C06A;
+  --text-primary:#1B2A4A;
+  --text-secondary:#4A5568;
+  --white:#FFFFFF;
+
+  --brown-color:#522E24;
+  --light-brown:#804D3B;
+  --gold:#D4AF37;
+  --golden1:#C5A028;
+  --dark-brown:#1A0F00;
+  --brown1:#391E10;
+}
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.view_booking{
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    background-color: var(--chrome);
+}
+
+.view_booking h2{
+    padding:20px;
+    font-size: 30px;
+    color: var(--cls-forest);
+}
+
+.view_booking table{
+    margin: 10px auto;
+}
+
+.view_booking table thead{
+    height: 50px;
+    background-color: var(--cls-forest);
+    color: var(--background);
+
+    
+}
+
+.view_booking table tr{
+    height: 50px;
+    
+}
+
+
+.button_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.button_row button{
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.button_row  #delete_btn{
+     background-color: #DC3545;
+    color: white;
+}
+
+.button_row #delete_btn:hover{
+     background-color: #BB2D3B;
+}
+
+
+.button_row  #update_btn{
+
+    background-color: var(--navy-mid);
+    color: var(--white);
+
+}
+
+
+
+.button_row  #update_btn:hover{
+    background-color: var(--navy-deep);
+}
+/* serach  */
+
+.serach_container{
+    padding-top: 50px;
+
+}
+
+.serach_container input{
+    width: 370px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--brown1);
+
+}

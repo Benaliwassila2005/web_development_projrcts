@@ -1,0 +1,45 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/*  Palette 1  */
+
+
+:root {
+  --ivory:            #E8E5DC;
+  --soft-beige:       #D8C8BC;
+  --grey-brown:       #6B6258;
+  --deep-charcoal:    #2E2D2A;
+  --mist-green-gray:  #7D8580;
+  --dark-forest-gray: #34413D;
+  --foggy-blue-gray:  #8E9A9A;
+}
+
+/* Palette 2 */
+
+:root {
+  --spa-background:   #F4F1EA;
+  --spa-card:         #DCCFC0;
+  --spa-sage:         #7C8B7A;
+  --spa-forest:       #24332D;
+  --spa-gold:         #B89B5E;
+  --spa-text:         #2B2925;
+}
+
+/* Palette 3  */
+
+:root {
+  --cls-background:   #F7F3EC;
+  --cls-card:         #D8C3AE;
+  --cls-sage:         #879681;
+  --cls-forest:       #2F3A32;
+  --cls-gold:         #C5A46D;
+  --cls-text:         #3A3834;
+}
+
