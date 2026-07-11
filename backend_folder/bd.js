@@ -1,7 +1,13 @@
 const mysql = require("mysql2");
 
+console.log({
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    port: process.env.DB_PORT,
+    database: process.env.DB_NAME,
+    passwordLoaded: !!process.env.DB_PASSWORD
+});
 
-console.log(process.env.DB_PASSWORD);
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
@@ -9,10 +15,9 @@ const db = mysql.createConnection({
     password: process.env.DB_PASSWORD,
     database: process.env.DB_NAME,
     ssl: {
-    rejectUnauthorized: false
-}
+        rejectUnauthorized: false
+    }
 });
-
 
 db.connect((error) => {
     if (error) {
