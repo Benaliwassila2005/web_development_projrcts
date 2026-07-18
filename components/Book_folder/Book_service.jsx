@@ -21,36 +21,48 @@ function Book() {
     const handleSubmit = async (e) => {
     e.preventDefault();
 
-     const response = await fetch("https://web-development-projrcts.onrender.com/booking", {
-        method: "POST",
+    try {
+        const response = await fetch(
+            "https://web-development-projrcts.onrender.com/booking",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(formData),
+            }
+        );
 
-        headers: {
-            "Content-Type": "application/json",
-        },
+        console.log("Status:", response.status);
 
-        body: JSON.stringify(formData),
-    });
+        const data = await response.json();
+        console.log(data);
 
-    const data = await response.json();
+        if (response.ok) {
+            alert("Booking successful!");
 
-    console.log(data);
+            setFormData({
+                full_name: "",
+                phone_num: "",
+                email: "",
+                state: "",
+                address: "",
+                package: "",
+                customized_sweets: false,
+                dry_fruits: false,
+                booking_date: "",
+                number_of_people: "",
+                notes: ""
+            });
+        } else {
+            alert("Booking failed!");
+        }
 
-
-    setFormData({
-    full_name: "",
-    phone_num: "",
-    email: "",
-    state: "",
-    address: "",
-    package: "",
-    customized_sweets: false,
-    dry_fruits: false,
-    booking_date: "",
-    number_of_people: "",
-    notes: ""
-});
-   };
-
+    } catch (error) {
+        console.error("Error:", error);
+        alert("Cannot connect to the server.");
+    }
+};
   return (
 
       
