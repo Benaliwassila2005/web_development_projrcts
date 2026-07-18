@@ -21,7 +21,7 @@ function Book() {
     const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("http://localhost:5000/booking", {
+     const response = await fetch("https://web-development-projrcts.onrender.com/booking", {
         method: "POST",
 
         headers: {
