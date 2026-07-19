@@ -413,3 +413,334 @@
   }
 
 }
+
+
+/* ==========================================
+   Mobile (Phones)
+========================================== */
+
+@media screen and (max-width:768px){
+
+.global_container{
+    overflow:hidden;
+}
+
+/* ==========================
+   FEATURES
+========================== */
+
+.global_container .features_container{
+
+    display:flex;
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    gap:25px;
+
+    height:auto;
+
+    padding:35px 20px;
+
+}
+
+.global_container .features_content{
+
+    width:100%;
+
+    flex-direction:column;
+
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+
+    gap:15px;
+
+    padding:25px 15px;
+
+    border-radius:18px;
+
+    background:rgba(255,255,255,.03);
+
+}
+
+.global_container .features_content.middle_div{
+
+    border:none;
+
+}
+
+.icons svg{
+
+    width:42px;
+    height:42px;
+
+}
+
+.global_container .features_content .content h2{
+
+    font-size:24px;
+
+    padding-bottom:10px;
+
+}
+
+.global_container .features_content .content p{
+
+    font-size:15px;
+
+    line-height:1.8;
+
+    max-width:260px;
+
+    margin:auto;
+
+}
+
+/* ==========================
+   TITLE
+========================== */
+
+.services_section #service_tit{
+
+    font-size:32px;
+
+    padding-top:45px;
+
+}
+
+#line{
+
+    width:85%;
+
+    margin:20px auto 40px;
+
+}
+
+/* ==========================
+   SWIPER
+========================== */
+
+.services_container{
+
+    padding:0 10px;
+
+    margin:20px auto 60px;
+
+}
+
+.swiper{
+
+    padding-bottom:40px;
+
+}
+
+.swiper-slide{
+
+    display:flex;
+
+    justify-content:center;
+
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.services_container .service_cont{
+
+    width:92%;
+
+    max-width:330px;
+
+    min-height:auto;
+
+    border-radius:22px;
+
+    overflow:hidden;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.08);
+
+}
+
+/* ==========================
+   IMAGE
+========================== */
+
+.div_image{
+
+    height:190px;
+
+    border-radius:22px 22px 0 0;
+
+}
+
+.div_image img{
+
+    border-radius:22px 22px 0 0;
+
+}
+
+/* ==========================
+   CONTENT
+========================== */
+
+.content_service{
+
+    padding:22px 18px;
+
+    gap:15px;
+
+}
+
+.content_service h2{
+
+    font-size:24px;
+
+    line-height:1.4;
+
+}
+
+.content_service p{
+
+    font-size:16px;
+
+    line-height:2;
+
+}
+
+/* ==========================
+   PRICE
+========================== */
+
+.content_service .price{
+
+    width:130px;
+
+    height:42px;
+
+    margin-top:15px;
+
+}
+
+.content_service .price span{
+
+    font-size:20px;
+
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+.book_now{
+
+    width:160px;
+
+    height:48px;
+
+    margin-top:18px;
+
+    margin-bottom:15px;
+
+    font-size:15px;
+
+    border-radius:25px;
+
+    background:rgba(184,134,11,.08);
+
+}
+
+.book_now svg{
+
+    font-size:18px;
+
+}
+
+}
+
+/* ==========================================
+   Small Phones
+========================================== */
+
+@media screen and (max-width:480px){
+
+.global_container .features_container{
+
+    padding:25px 15px;
+
+}
+
+.global_container .features_content{
+
+    padding:20px;
+
+}
+
+.global_container .features_content .content h2{
+
+    font-size:21px;
+
+}
+
+.global_container .features_content .content p{
+
+    font-size:14px;
+
+}
+
+.services_section #service_tit{
+
+    font-size:28px;
+
+}
+
+.services_container{
+
+    padding:0 8px;
+
+}
+
+.services_container .service_cont{
+
+    width:100%;
+
+}
+
+.div_image{
+
+    height:175px;
+
+}
+
+.content_service{
+
+    padding:18px 16px;
+
+}
+
+.content_service h2{
+
+    font-size:22px;
+
+}
+
+.content_service p{
+
+    font-size:15px;
+
+}
+
+.book_now{
+
+    width:150px;
+
+    height:45px;
+
+    font-size:14px;
+
+}
+
+}
