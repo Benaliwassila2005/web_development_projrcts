@@ -195,3 +195,106 @@
     fill: var(--gold-accent);
 
  }
+
+
+ /* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width:768px){
+
+    .global_container_footer{
+        margin-top:60px;
+        padding:0 20px 30px;
+    }
+
+    .container_log{
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        gap:40px;
+        text-align:center;
+    }
+
+    .logo img{
+        height:120px;
+    }
+
+    .right_content{
+        width:100%;
+        flex-direction:column;
+        gap:35px;
+        align-items:center;
+    }
+
+    .contact_info{
+        width:100%;
+    }
+
+    .contact_info h2{
+        padding-bottom:15px;
+        text-align:center;
+    }
+
+    .contact_info h2::after{
+        margin:10px auto 0;
+    }
+
+    .services_list{
+        text-align:center;
+    }
+
+    .services_list li{
+        margin-bottom:12px;
+    }
+
+    #line{
+        width:90%;
+    }
+
+    .contact_nous{
+        margin-bottom:30px;
+    }
+
+    .contact_nous .contact_paragraph{
+        flex-direction:column;
+        gap:18px;
+        padding:20px 10px;
+    }
+
+    .contact_paragraph p{
+        justify-content:center;
+        text-align:center;
+        flex-wrap:wrap;
+        font-size:15px;
+    }
+}
+
+@media (max-width:480px){
+
+    .global_container_footer{
+        margin-top:40px;
+        padding:0 15px 25px;
+    }
+
+    .logo img{
+        height:90px;
+    }
+
+    .contact_info h2{
+        font-size:22px;
+    }
+
+    .services_list li{
+        font-size:14px;
+    }
+
+    .contact_paragraph p{
+        font-size:14px;
+        line-height:1.6;
+    }
+
+    #line{
+        width:95%;
+    }
+}

@@ -213,3 +213,203 @@ form{
     direction: rtl;
 
 }
+
+/* ===================================
+   TABLETS (992px)
+=================================== */
+
+@media (max-width:992px){
+
+  .book_nav_bar{
+
+    padding:0 25px;
+
+  }
+
+  .booking_form{
+
+    width:90%;
+
+  }
+
+}
+
+/* ===================================
+   MOBILE (768px)
+=================================== */
+
+@media (max-width:768px){
+
+  .book_nav_bar{
+
+    height:auto;
+
+    padding:20px 15px;
+
+    flex-direction:column;
+
+    gap:18px;
+
+  }
+
+  .book_logo img{
+
+    height:50px;
+
+  }
+
+  .book_nav_list{
+
+    width:100%;
+
+  }
+
+  .book_nav_list nav{
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+  }
+
+  .book_nav_list nav a{
+
+    font-size:14px;
+
+  }
+
+  .book_nav_list nav #contact_btn{
+
+    width:110px;
+
+    height:38px;
+
+    font-size:13px;
+
+  }
+
+  .booking_form{
+
+    width:95%;
+
+    margin:25px auto;
+
+    padding:25px 20px;
+
+    gap:15px;
+
+  }
+
+  .booking_form input,
+
+  .booking_form select,
+
+  .booking_form textarea{
+
+    font-size:14px;
+
+    padding:12px;
+
+  }
+
+  .booking_form button{
+
+    font-size:15px;
+
+    padding:14px;
+
+  }
+
+  .checkbox_label{
+
+    font-size:14px;
+
+    align-items:flex-start;
+
+  }
+
+}
+
+/* ===================================
+   SMALL PHONES (480px)
+=================================== */
+
+@media (max-width:480px){
+
+  .book_nav_bar{
+
+    padding:15px 10px;
+
+    gap:15px;
+
+  }
+
+  .book_logo img{
+
+    height:42px;
+
+  }
+
+  .book_nav_list nav{
+
+    gap:10px;
+
+  }
+
+  .book_nav_list nav a{
+
+    font-size:13px;
+
+  }
+
+  .book_nav_list nav #contact_btn{
+
+    width:95px;
+
+    height:34px;
+
+    font-size:12px;
+
+  }
+
+  .booking_form{
+
+    width:96%;
+
+    padding:18px 15px;
+
+    border-radius:12px;
+
+  }
+
+  .booking_form input,
+
+  .booking_form select,
+
+  .booking_form textarea{
+
+    padding:10px;
+
+    font-size:13px;
+
+  }
+
+  .booking_form button{
+
+    padding:12px;
+
+    font-size:14px;
+
+  }
+
+  .checkbox_label{
+
+    font-size:13px;
+
+    gap:6px;
+
+  }
+
+}
